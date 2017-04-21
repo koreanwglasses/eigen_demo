@@ -11,6 +11,7 @@ package demo.expr;
 import mathbuild.Operator;
 import mathbuild.Executor;
 import mathbuild.type.*;
+import mathbuild.type.Type;
 import mathbuild.value.*;
 import mathbuild.MB;
 
