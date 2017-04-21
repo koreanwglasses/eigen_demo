@@ -95,9 +95,9 @@ public class Set {
     /**
      * @return whether this set contains any of the objects in the given enumeration
      */
-    public boolean containsAny(java.util.Enumeration enum) {
-        while (enum.hasMoreElements())
-            if (this.contains(enum.nextElement()))
+    public boolean containsAny(java.util.Enumeration enumeration) {
+        while (enumeration.hasMoreElements())
+            if (this.contains(enumeration.nextElement()))
                 return true;
         return false;
     }
