@@ -1,0 +1,5563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		0142916800CD9A677F000001 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		0142916900CD9A677F000001 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		0196B709FFFBDAD47F000001 = {
+			children = (
+				F55EC46903078A3101942D35,
+				F5414E19030A0ED301942D35,
+				F5A1CBA9030A12B501942D35,
+			);
+			isa = PBXGroup;
+			path = javafiles;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		01F12F4CFEC8CE2211DB9C8B = {
+			buildSettings = {
+			};
+			buildStyles = (
+				0142916800CD9A677F000001,
+				0142916900CD9A677F000001,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 01F12F4DFEC8CE2211DB9C8B;
+			productRefGroup = 01F12F4FFEC8CEF111DB9C8B;
+			projectDirPath = "";
+			targets = (
+				1601BCDBFEEE210811DB9C8B,
+			);
+		};
+		01F12F4DFEC8CE2211DB9C8B = {
+			children = (
+				10F9BF62FEEDA25E11DB9C8B,
+				10F9BF63FEEDA25E11DB9C8B,
+				01F12F4FFEC8CEF111DB9C8B,
+				F5CBEAAF0309A8A601942D35,
+				0196B709FFFBDAD47F000001,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		01F12F4FFEC8CEF111DB9C8B = {
+			children = (
+				06D05853FF24F2DB11DB9C8B,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//060
+//061
+//062
+//063
+//064
+		06D05853FF24F2DB11DB9C8B = {
+			explicitFileType = wrapper.application;
+			isa = PBXFileReference;
+			path = Demo.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//060
+//061
+//062
+//063
+//064
+//100
+//101
+//102
+//103
+//104
+		10F9BF62FEEDA25E11DB9C8B = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = Demo.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		10F9BF63FEEDA25E11DB9C8B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = MRJApp.properties;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//160
+//161
+//162
+//163
+//164
+		1601BCDBFEEE210811DB9C8B = {
+			buildPhases = (
+				1601BCDCFEEE210811DB9C8B,
+				1601BCDEFEEE210811DB9C8B,
+				1601BCDFFEEE210811DB9C8B,
+				1601BCE2FEEE210811DB9C8B,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				JAVA_ARCHIVE_COMPRESSION = YES;
+				JAVA_COMPILER_TARGET_VM_VERSION = 1.1;
+				JAVA_MANIFEST_FILE = resources/MANIFEST;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Demo;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Demo;
+			productName = Demo;
+			productReference = 06D05853FF24F2DB11DB9C8B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Demo</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>Demo.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<array>
+			<string>$APP_PACKAGE/Contents/Resources/Java/Demo.jar</string>
+		</array>
+		<key>MainClass</key>
+		<string>demo.Demo</string>
+	</dict>
+	<key>NSJavaNeeded</key>
+	<string>YES</string>
+	<key>NSJavaPath</key>
+	<array>
+		<string>Demo.jar</string>
+	</array>
+	<key>NSJavaRoot</key>
+	<string>Contents/Resources/Java</string>
+</dict>
+</plist>
+";
+		};
+		1601BCDCFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				F55EC4D803078A3201942D35,
+				F55EC4D903078A3201942D35,
+				F55EC4DA03078A3201942D35,
+				F55EC4DB03078A3201942D35,
+				F55EC4DC03078A3201942D35,
+				F55EC4DD03078A3201942D35,
+				F55EC4DE03078A3201942D35,
+				F55EC4DF03078A3201942D35,
+				F55EC4E003078A3201942D35,
+				F55EC4E103078A3201942D35,
+				F55EC4E203078A3201942D35,
+				F55EC4E303078A3201942D35,
+				F55EC4E403078A3201942D35,
+				F55EC4E503078A3201942D35,
+				F55EC4E603078A3201942D35,
+				F55EC4E703078A3201942D35,
+				F55EC4E803078A3201942D35,
+				F55EC4E903078A3201942D35,
+				F55EC4EA03078A3201942D35,
+				F55EC4EB03078A3201942D35,
+				F55EC4EC03078A3201942D35,
+				F55EC4ED03078A3201942D35,
+				F55EC4EE03078A3201942D35,
+				F55EC4EF03078A3201942D35,
+				F55EC4F003078A3201942D35,
+				F55EC4F103078A3201942D35,
+				F55EC4F203078A3201942D35,
+				F55EC4F303078A3201942D35,
+				F55EC4F403078A3201942D35,
+				F55EC4F503078A3201942D35,
+				F55EC4F603078A3201942D35,
+				F55EC4F703078A3201942D35,
+				F55EC4F803078A3201942D35,
+				F55EC4F903078A3201942D35,
+				F55EC4FA03078A3201942D35,
+				F55EC4FB03078A3201942D35,
+				F55EC4FC03078A3201942D35,
+				F55EC4FD03078A3201942D35,
+				F55EC4FE03078A3201942D35,
+				F55EC4FF03078A3201942D35,
+				F55EC50003078A3201942D35,
+				F55EC50103078A3201942D35,
+				F55EC50203078A3201942D35,
+				F55EC50303078A3201942D35,
+				F55EC50403078A3201942D35,
+				F55EC50503078A3201942D35,
+				F55EC50603078A3201942D35,
+				F55EC50703078A3201942D35,
+				F55EC50803078A3201942D35,
+				F55EC50903078A3201942D35,
+				F55EC50A03078A3201942D35,
+				F55EC50B03078A3201942D35,
+				F55EC50C03078A3201942D35,
+				F55EC50D03078A3201942D35,
+				F55EC50E03078A3201942D35,
+				F55EC50F03078A3201942D35,
+				F55EC51003078A3201942D35,
+				F55EC51103078A3201942D35,
+				F55EC51203078A3201942D35,
+				F55EC51303078A3201942D35,
+				F55EC51403078A3201942D35,
+				F55EC51503078A3201942D35,
+				F55EC51603078A3201942D35,
+				F55EC51703078A3201942D35,
+				F55EC51803078A3201942D35,
+				F55EC51903078A3201942D35,
+				F55EC51A03078A3201942D35,
+				F55EC51B03078A3201942D35,
+				F55EC51C03078A3201942D35,
+				F55EC51D03078A3201942D35,
+				F55EC51E03078A3201942D35,
+				F55EC51F03078A3201942D35,
+				F55EC52003078A3201942D35,
+				F55EC52103078A3201942D35,
+				F55EC52203078A3201942D35,
+				F55EC52303078A3201942D35,
+				F55EC52403078A3201942D35,
+				F55EC52503078A3201942D35,
+				F55EC52603078A3201942D35,
+				F55EC52703078A3201942D35,
+				F55EC52803078A3201942D35,
+				F55EC52903078A3201942D35,
+				F55EC52A03078A3201942D35,
+				F55EC52B03078A3201942D35,
+				F55EC52C03078A3201942D35,
+				F55EC52D03078A3201942D35,
+				F55EC52E03078A3201942D35,
+				F55EC52F03078A3201942D35,
+				F55EC53003078A3201942D35,
+				F55EC53103078A3201942D35,
+				F55EC53203078A3201942D35,
+				F55EC53303078A3201942D35,
+				F55EC53403078A3201942D35,
+				F55EC53603078A3201942D35,
+				F55EC53703078A3201942D35,
+				F55EC53903078A3201942D35,
+				F55EC53B03078A3201942D35,
+				F55EC53D03078A3201942D35,
+				F55EC53F03078A3201942D35,
+				F55EC54203078A3201942D35,
+				F55EC54403078F8901942D35,
+				F5402D2D0308623001942D35,
+				F5402D2F0308647A01942D35,
+				F5FFE15E0308B66A01942D35,
+				F5FFE1600308B99701942D35,
+				F5CBEAB30309ACA301942D35,
+				F5414EB5030A0ED301942D35,
+				F5414EB6030A0ED301942D35,
+				F5414EB7030A0ED301942D35,
+				F5414EB8030A0ED301942D35,
+				F5414EB9030A0ED301942D35,
+				F5414EBA030A0ED301942D35,
+				F5414EBB030A0ED301942D35,
+				F5414EBC030A0ED301942D35,
+				F5414EBD030A0ED301942D35,
+				F5414EBE030A0ED301942D35,
+				F5414EBF030A0ED301942D35,
+				F5414EC0030A0ED301942D35,
+				F5414EC1030A0ED301942D35,
+				F5414EC2030A0ED301942D35,
+				F5414EC3030A0ED301942D35,
+				F5414EC4030A0ED301942D35,
+				F5414EC5030A0ED301942D35,
+				F5414EC6030A0ED301942D35,
+				F5414EC7030A0ED301942D35,
+				F5414EC8030A0ED301942D35,
+				F5414EC9030A0ED301942D35,
+				F5414ECA030A0ED301942D35,
+				F5414ECB030A0ED301942D35,
+				F5414ECC030A0ED301942D35,
+				F5414ECD030A0ED301942D35,
+				F5414ECE030A0ED301942D35,
+				F5414ECF030A0ED301942D35,
+				F5414ED0030A0ED301942D35,
+				F5414ED1030A0ED301942D35,
+				F5414ED2030A0ED301942D35,
+				F5414ED3030A0ED301942D35,
+				F5414ED5030A0ED301942D35,
+				F5414ED6030A0ED301942D35,
+				F5414ED7030A0ED301942D35,
+				F5414ED8030A0ED301942D35,
+				F5414ED9030A0ED301942D35,
+				F5414EDA030A0ED301942D35,
+				F5414EDB030A0ED301942D35,
+				F5414EDC030A0ED301942D35,
+				F5414EDD030A0ED301942D35,
+				F5414EDE030A0ED301942D35,
+				F5414EDF030A0ED301942D35,
+				F5414EE3030A0ED301942D35,
+				F5414EE4030A0ED301942D35,
+				F5414EE5030A0ED301942D35,
+				F5414EE6030A0ED301942D35,
+				F5414EE7030A0ED301942D35,
+				F5414EE8030A0ED301942D35,
+				F5414EE9030A0ED301942D35,
+				F5414EEA030A0ED301942D35,
+				F5414EEB030A0ED301942D35,
+				F5414EEC030A0ED301942D35,
+				F5414EED030A0ED301942D35,
+				F5414EEE030A0ED301942D35,
+				F5414EEF030A0ED301942D35,
+				F5414EF0030A0ED301942D35,
+				F5414EF1030A0ED301942D35,
+				F5414EF2030A0ED301942D35,
+				F5414EF3030A0ED301942D35,
+				F5414EF4030A0ED301942D35,
+				F5414EF5030A0ED301942D35,
+				F5414EF6030A0ED301942D35,
+				F5414EF7030A0ED301942D35,
+				F5414EF8030A0ED301942D35,
+				F5414EF9030A0ED301942D35,
+				F5414EFA030A0ED301942D35,
+				F5414EFB030A0ED301942D35,
+				F5414EFC030A0ED301942D35,
+				F5414EFD030A0ED301942D35,
+				F5414EFE030A0ED301942D35,
+				F5414EFF030A0ED301942D35,
+				F5414F00030A0ED301942D35,
+				F5414F01030A0ED301942D35,
+				F5414F02030A0ED301942D35,
+				F5414F03030A0ED301942D35,
+				F5414F04030A0ED301942D35,
+				F5414F05030A0ED301942D35,
+				F5414F06030A0ED301942D35,
+				F5414F07030A0ED301942D35,
+				F5414F08030A0ED301942D35,
+				F5414F09030A0ED301942D35,
+				F5414F0A030A0ED301942D35,
+				F5414F0B030A0ED301942D35,
+				F5414F0C030A0ED301942D35,
+				F5414F0D030A0ED301942D35,
+				F5414F0E030A0ED301942D35,
+				F5414F0F030A0ED301942D35,
+				F5414F10030A0ED301942D35,
+				F5414F11030A0ED301942D35,
+				F5414F12030A0ED301942D35,
+				F5414F13030A0ED301942D35,
+				F5414F14030A0ED301942D35,
+				F5414F15030A0ED301942D35,
+				F5414F16030A0ED301942D35,
+				F5414F17030A0ED301942D35,
+				F5414F18030A0ED301942D35,
+				F5414F19030A0ED301942D35,
+				F5414F1A030A0ED301942D35,
+				F5414F1B030A0ED301942D35,
+				F5414F1C030A0ED301942D35,
+				F5414F1D030A0ED301942D35,
+				F5414F1E030A0ED301942D35,
+				F5414F1F030A0ED301942D35,
+				F5414F20030A0ED301942D35,
+				F5414F21030A0ED301942D35,
+				F5414F22030A0ED301942D35,
+				F5414F23030A0ED301942D35,
+				F5414F24030A0ED301942D35,
+				F5414F25030A0ED301942D35,
+				F5414F26030A0ED301942D35,
+				F5414F27030A0ED301942D35,
+				F5414F28030A0ED301942D35,
+				F5414F29030A0ED301942D35,
+				F5414F2A030A0ED301942D35,
+				F5414F2B030A0ED301942D35,
+				F5414F2C030A0ED301942D35,
+				F5414F2D030A0ED301942D35,
+				F5414F2E030A0ED301942D35,
+				F5414F2F030A0ED301942D35,
+				F5414F30030A0ED301942D35,
+				F5414F31030A0ED301942D35,
+				F5414F33030A0ED301942D35,
+				F5414F34030A0ED301942D35,
+				F5414F35030A0ED301942D35,
+				F5414F36030A0ED301942D35,
+				F5414F37030A0ED301942D35,
+				F5414F38030A0ED301942D35,
+				F5414F39030A0ED301942D35,
+				F5414F3A030A0ED301942D35,
+				F5414F3B030A0ED301942D35,
+				F5414F3C030A0ED301942D35,
+				F5414F3D030A0ED301942D35,
+				F5414F3E030A0ED301942D35,
+				F5A1CBAA030A12B501942D35,
+				F5A1CBAC030A212C01942D35,
+				F5A1464B030A2E9E01942D35,
+				F5A1464D030A2F1001942D35,
+				F52957FE030B449F01942D35,
+				F5295802030B4A1601942D35,
+				F5295804030B5D5301942D35,
+				F51A1673030B5E6701942D35,
+				F51A1675030B5F0201942D35,
+				F51A1677030B5F2801942D35,
+				F51A1679030B5F5701942D35,
+				F51A167B030B5F8201942D35,
+				F51A167D030B64B501942D35,
+				F51A167F030B66D701942D35,
+				F5287595030DB16A01942D35,
+				F5287599030E1B8101942D35,
+				F528759B030E1EAA01942D35,
+				F529A6FC03101EB901942D35,
+				F5BE225C0310E2CE01942D35,
+				F5BE225E0310E3AA01942D35,
+				F529A54D03120A7601942D35,
+				F555BE4D03EF5B9C0194B9B5,
+				F5DF651F03F641760194B9B5,
+				F5D0EF3204049E810194B9B5,
+				F530BDB50407336B0194B9B5,
+				F560F8130419D5E60194B9B5,
+				F560F8150419D7520194B9B5,
+				F560F8170419D8210194B9B5,
+				F5B98121041AF0CC0194B9B5,
+				F691D2C2042FB5BF0156F598,
+				F691D2C4042FB6EC0156F598,
+				F691D2C6042FF1C00156F598,
+				FA8F4529043A443E0094B9B5,
+				FAA1E074043A48260094B9B5,
+				FAA1E078043A4CB50094B9B5,
+				FAA1E07A043A4DCE0094B9B5,
+				FAA1E07C043A4FE20094B9B5,
+				FAA1E082043A8C8A0094B9B5,
+				FAA1E084043A8E8E0094B9B5,
+				FAC58700043B7D030094B9B5,
+				FAC5870C043BEA540094B9B5,
+				FA92F8F7043D1F890094B9B5,
+				FA9F8603043DF4C20094B9B5,
+				FA9F860D043EAC100094B9B5,
+				FA9F860F043EAF920094B9B5,
+				FAB773B30441E02E0094B9B5,
+				FAB65FD7044369390094B9B5,
+				FAB65FD9044369520094B9B5,
+				FAD896B404475D280094B9B5,
+				FAD896B8044765570094B9B5,
+				FAD896BA04476A740094B9B5,
+				FA0FD04804537DC60094B9B5,
+				FA0FD04A04537FCB0094B9B5,
+				FA0FD04E0453B4690094B9B5,
+				FA0FD0500453B94E0094B9B5,
+				FADA1CC60453C7420094B9B5,
+				FABC03E7046092FB0094B9B5,
+				FABC03EB0460AA310094B9B5,
+				FAD9F61B0461C7EB0094B9B5,
+				FAD9F61D0461CA3A0094B9B5,
+				FAD9F61F0461CAAE0094B9B5,
+				FAC306A2049B04F600A801C9,
+				FAC306A4049B0B1E00A801C9,
+				FAC90C1D04A66DEC00A80164,
+				FA20225604A672AC00A80164,
+				FAE8A06104A9236900A80164,
+				FAAFD1A704D89CA400A80164,
+				FAAFD1A904D8B09000A80164,
+				FAAFD1AB04D8CDC900A80164,
+				FAA566B404E1796D00A80164,
+				FAA566B604E17CC400A80164,
+				FAA566B804E17FC800A80164,
+				FAA566BA04E1807F00A80164,
+				FAA566BE04E1A53800A80164,
+				FAB50FDB0682A14900F99ED3,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDEFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				F5CBEAB10309A8A601942D35,
+				FA87DB2608400248005A6DE1,
+				F691D2BA042FB1BD0156F598,
+			);
+			isa = PBXJavaArchiveBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCDFFEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+				1601BCE0FEEE210811DB9C8B,
+				1601BCE1FEEE210811DB9C8B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601BCE0FEEE210811DB9C8B = {
+			fileRef = 10F9BF62FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE1FEEE210811DB9C8B = {
+			fileRef = 10F9BF63FEEDA25E11DB9C8B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1601BCE2FEEE210811DB9C8B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//F50
+//F51
+//F52
+//F53
+//F54
+		F51A1672030B5E6701942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LessThan.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A1673030B5E6701942D35 = {
+			fileRef = F51A1672030B5E6701942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A1674030B5F0201942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GreaterThan.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A1675030B5F0201942D35 = {
+			fileRef = F51A1674030B5F0201942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A1676030B5F2801942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = And.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A1677030B5F2801942D35 = {
+			fileRef = F51A1676030B5F2801942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A1678030B5F5701942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Or.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A1679030B5F5701942D35 = {
+			fileRef = F51A1678030B5F5701942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A167A030B5F8101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EqualsTol.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A167B030B5F8201942D35 = {
+			fileRef = F51A167A030B5F8101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A167C030B64B501942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpAndVec.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A167D030B64B501942D35 = {
+			fileRef = F51A167C030B64B501942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F51A167E030B66D701942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpAndMat.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F51A167F030B66D701942D35 = {
+			fileRef = F51A167E030B66D701942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5287594030DB16A01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DefinitionsPackageRecognizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5287595030DB16A01942D35 = {
+			fileRef = F5287594030DB16A01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5287598030E1B8001942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Boolean.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5287599030E1B8101942D35 = {
+			fileRef = F5287598030E1B8001942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F528759A030E1EAA01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = RemoveButton.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F528759B030E1EAA01942D35 = {
+			fileRef = F528759A030E1EAA01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52957FD030B449E01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Map.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F52957FE030B449F01942D35 = {
+			fileRef = F52957FD030B449E01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5295801030B4A1601942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNIf.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5295802030B4A1601942D35 = {
+			fileRef = F5295801030B4A1601942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5295803030B5D5201942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BooleanNot.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5295804030B5D5301942D35 = {
+			fileRef = F5295803030B5D5201942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F529A54C03120A7601942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BuildArguments.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F529A54D03120A7601942D35 = {
+			fileRef = F529A54C03120A7601942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F529A6FB03101EB801942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EnvironmentEntryError.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F529A6FC03101EB901942D35 = {
+			fileRef = F529A6FB03101EB801942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F530BDB40407336B0194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeRandom.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F530BDB50407336B0194B9B5 = {
+			fileRef = F530BDB40407336B0194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5402D2C0308623001942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ParameterDummy.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5402D2D0308623001942D35 = {
+			fileRef = F5402D2C0308623001942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5402D2E0308647A01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeDummy.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5402D2F0308647A01942D35 = {
+			fileRef = F5402D2E0308647A01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414E19030A0ED301942D35 = {
+			children = (
+				F5414E1A030A0ED301942D35,
+				F5414E2A030A0ED301942D35,
+				FAB50F0206825CD200F99ED3,
+				F5414E31030A0ED301942D35,
+				F5414E42030A0ED301942D35,
+				F5414E58030A0ED301942D35,
+				F5414E69030A0ED301942D35,
+				F5414E7C030A0ED301942D35,
+				F5414E9B030A0ED301942D35,
+				F5414EAC030A0ED301942D35,
+				F5414E27030A0ED301942D35,
+				F5414E28030A0ED301942D35,
+				F5414E29030A0ED301942D35,
+				F5A1464A030A2E9E01942D35,
+				FAB773B20441E02E0094B9B5,
+			);
+			isa = PBXGroup;
+			path = demo;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1A030A0ED301942D35 = {
+			children = (
+				F5414E1B030A0ED301942D35,
+				F5414E20030A0ED301942D35,
+				F5414E21030A0ED301942D35,
+				F5414E22030A0ED301942D35,
+				F5414E23030A0ED301942D35,
+				F5414E24030A0ED301942D35,
+				F5414E25030A0ED301942D35,
+				F5414E26030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = coloring;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1B030A0ED301942D35 = {
+			children = (
+				F5414E1C030A0ED301942D35,
+				F5414E1D030A0ED301942D35,
+				F5414E1E030A0ED301942D35,
+				F5414E1F030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = ui;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColorChoice.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditColoringGroupPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditColoringListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E1F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditColoringWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E20030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Coloring.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E21030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringBase.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E22030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringChecker.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E23030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringConstant.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E24030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringExpression.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E25030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringGradient.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E26030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ColoringGroup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E27030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ControlsFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E28030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Demo.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E29030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoApplet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E2A030A0ED301942D35 = {
+			children = (
+				F5414E2E030A0ED301942D35,
+				F5414E2B030A0ED301942D35,
+				F5414E7B030A0ED301942D35,
+				F5414E2C030A0ED301942D35,
+				F5414E2F030A0ED301942D35,
+				F5414E30030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = depend;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E2B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = CircularException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E2C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Dependable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E2E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DependencyUpdateErrorWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E2F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DependencyManager.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E30030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DependencyNode.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E31030A0ED301942D35 = {
+			children = (
+				F5414E33030A0ED301942D35,
+				F5414E39030A0ED301942D35,
+				F5414E37030A0ED301942D35,
+				F5414E38030A0ED301942D35,
+				FA9F8602043DF4C20094B9B5,
+				F5A1CBAB030A212C01942D35,
+				F5287594030DB16A01942D35,
+				F5414E32030A0ED301942D35,
+				FAC5870B043BEA540094B9B5,
+			);
+			isa = PBXGroup;
+			path = expr;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E32030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DeclarationRecognizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E33030A0ED301942D35 = {
+			children = (
+				F5414E34030A0ED301942D35,
+				FA9F860C043EAC100094B9B5,
+				F5414E35030A0ED301942D35,
+				F5414E36030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = ui;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E34030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ReadoutPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E35030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TapeDeck.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E36030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = VariablePanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E37030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Expression.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E38030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = IntervalExpression.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E39030A0ED301942D35 = {
+			children = (
+				F5414E41030A0ED301942D35,
+				F5414E3A030A0ED301942D35,
+				F5414E3B030A0ED301942D35,
+				FAC586FF043B7D030094B9B5,
+				F5414E3C030A0ED301942D35,
+				F5414E3D030A0ED301942D35,
+				F5414E3E030A0ED301942D35,
+				F5414E3F030A0ED301942D35,
+				FA92F8F6043D1F890094B9B5,
+			);
+			isa = PBXGroup;
+			path = ste;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEConstant.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEExpression.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEFunction.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEInterval.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEValue.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E3F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEVariable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E41030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SymbolTableEntry.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E42030A0ED301942D35 = {
+			children = (
+				F5414E48030A0ED301942D35,
+				F5414E4A030A0ED301942D35,
+				F5414E44030A0ED301942D35,
+				F5414E4C030A0ED301942D35,
+				F5414E4B030A0ED301942D35,
+				F5414E4D030A0ED301942D35,
+				F5414E51030A0ED301942D35,
+				F5414E56030A0ED301942D35,
+				F5414E46030A0ED301942D35,
+				F5414E49030A0ED301942D35,
+				F5414E43030A0ED301942D35,
+				F5414E47030A0ED301942D35,
+				F5414E53030A0ED301942D35,
+				F5414E52030A0ED301942D35,
+				F5414E54030A0ED301942D35,
+				F5414E55030A0ED301942D35,
+				F5414E57030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = io;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E43030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileFileObjectIO.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E44030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileGenerator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E46030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LoadProgressFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E47030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileIO.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E48030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileObject.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E49030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileObjectIO.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E4A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileObjectIOClasses.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E4B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileParseException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E4C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileParser.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E4D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FileProperties.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E51030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Token.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E52030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenEOF.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E53030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tokenizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E54030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenNode.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E55030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenNumber.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E56030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenString.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E57030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenWord.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E58030A0ED301942D35 = {
+			children = (
+				F5414E65030A0ED301942D35,
+				F5414E66030A0ED301942D35,
+				F5414E67030A0ED301942D35,
+				F5414E68030A0ED301942D35,
+				F5414E5A030A0ED301942D35,
+				F5414E5B030A0ED301942D35,
+				F5414E5C030A0ED301942D35,
+				FA9F860E043EAF920094B9B5,
+				F5414E5D030A0ED301942D35,
+				F5414E5E030A0ED301942D35,
+				F5414E5F030A0ED301942D35,
+				F5414E60030A0ED301942D35,
+				F5414E61030A0ED301942D35,
+				F5414E62030A0ED301942D35,
+				F5414E63030A0ED301942D35,
+				F5414E64030A0ED301942D35,
+				F5414EB4030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = graph;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditHotspotsWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphCanvas.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphCanvas3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphFrame2D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E5F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphFrame3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E60030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphFrameUserPlottable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E61030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MenuItemGroup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E62030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MousePointValuesWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E63030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotMenuItem.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E64030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SelectGroupWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E65030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Graph.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E66030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Graph3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E67030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphGroup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E68030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Hotspot.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E69030A0ED301942D35 = {
+			children = (
+				F5414E6A030A0ED301942D35,
+				F5414E76030A0ED301942D35,
+				F5414E77030A0ED301942D35,
+				F5414E78030A0ED301942D35,
+				F5414E79030A0ED301942D35,
+				F5414E7A030A0ED301942D35,
+				F560F8120419D5E60194B9B5,
+				F560F8140419D7520194B9B5,
+				F560F8160419D8210194B9B5,
+				FAA566B904E1807F00A80164,
+				FAA566B304E1796D00A80164,
+				FAA566B704E17FC800A80164,
+				FAA566BD04E1A53800A80164,
+				FAA566B504E17CC400A80164,
+			);
+			isa = PBXGroup;
+			path = gfx;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6A030A0ED301942D35 = {
+			children = (
+				F5414E6B030A0ED301942D35,
+				F5414E6C030A0ED301942D35,
+				F5414E6D030A0ED301942D35,
+				F5414E6E030A0ED301942D35,
+				F5414E6F030A0ED301942D35,
+				F5414E70030A0ED301942D35,
+				F5414E71030A0ED301942D35,
+				F5414E72030A0ED301942D35,
+				F5414E73030A0ED301942D35,
+				F5414E74030A0ED301942D35,
+				F5414E75030A0ED301942D35,
+			);
+			isa = PBXGroup;
+			path = drawable;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Drawable3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DrawableArrowhead.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DrawableCross.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DrawableDot.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E6F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Polygon.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E70030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Polygon3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E71030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PolygonFramedTriangle.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E72030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PolygonLine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E73030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PolygonPoint.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E74030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PolygonTriangle.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E75030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TextDrawable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E76030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Matrix.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E77030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Matrix4D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E78030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Point.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E79030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PointSortable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = RotationMatrix4D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = HasDependentsException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7C030A0ED301942D35 = {
+			children = (
+				F5414E7D030A0ED301942D35,
+				F5414E94030A0ED301942D35,
+				FAAFD1A604D89CA400A80164,
+				FAAFD1A804D8B09000A80164,
+				FAAFD1AA04D8CDC900A80164,
+				F5414E8F030A0ED301942D35,
+				F691D2C3042FB6EC0156F598,
+				F5414E90030A0ED301942D35,
+				F5414E91030A0ED301942D35,
+				F5414E92030A0ED301942D35,
+				F5414E93030A0ED301942D35,
+				F5414E95030A0ED301942D35,
+				F5414E96030A0ED301942D35,
+				F5414E97030A0ED301942D35,
+				F5414E98030A0ED301942D35,
+				F5414E99030A0ED301942D35,
+				F5414E9A030A0ED301942D35,
+				F691D2C1042FB5BF0156F598,
+			);
+			isa = PBXGroup;
+			path = plot;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7D030A0ED301942D35 = {
+			children = (
+				F5414E7E030A0ED301942D35,
+				F5414E7F030A0ED301942D35,
+				F5414E80030A0ED301942D35,
+				F5414E81030A0ED301942D35,
+				F5414E82030A0ED301942D35,
+				F5414E83030A0ED301942D35,
+				F5414E84030A0ED301942D35,
+				F5414E85030A0ED301942D35,
+				F691D2C5042FF1C00156F598,
+				FAD896B904476A740094B9B5,
+				F5414E86030A0ED301942D35,
+				F5414E87030A0ED301942D35,
+				F5414E88030A0ED301942D35,
+				F5414E89030A0ED301942D35,
+				F5414E8A030A0ED301942D35,
+				F5414E8B030A0ED301942D35,
+				F5414E8C030A0ED301942D35,
+				F5414E8D030A0ED301942D35,
+				F5414E8E030A0ED301942D35,
+				FABC03E6046092FB0094B9B5,
+			);
+			isa = PBXGroup;
+			path = ui;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AddPlotMenuCreator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E7F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotCommonOptionsBtn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E80030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotExpressionWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E81030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotFieldWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E82030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotPointWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E83030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotPolygonWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E84030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotPolyhedronWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E85030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotVectorWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E86030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E87030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindowCreator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E88030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindowCurve.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E89030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindowListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindowSurface.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8B030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotWindowWireframe.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExtraZInput.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotVisibleCheckbox.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TransparencyThresholdInput.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E8F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Plot.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E90030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotAxes.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E91030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotCurve.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E92030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotExpression.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E93030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotField.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E94030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = PlotListener.java;
+			path = javafiles/demo/plot/PlotListener.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5414E95030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotPoint.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E96030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotPolygon.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E97030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotPolyhedron.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E98030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotSurface3D.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E99030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9A030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotWireframe.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9B030A0ED301942D35 = {
+			children = (
+				F5414E9C030A0ED301942D35,
+				F5414E9D030A0ED301942D35,
+				F5414E9E030A0ED301942D35,
+				F5414E9F030A0ED301942D35,
+				F5414EA0030A0ED301942D35,
+				F5414EA1030A0ED301942D35,
+				F5414EA2030A0ED301942D35,
+				F5414EA3030A0ED301942D35,
+				F5414EA4030A0ED301942D35,
+				F5414EA5030A0ED301942D35,
+				F5414EA6030A0ED301942D35,
+				FAD896B304475D280094B9B5,
+				F5B98120041AF0CC0194B9B5,
+				F5414EA8030A0ED301942D35,
+				F5414EA9030A0ED301942D35,
+				F5414EAA030A0ED301942D35,
+				F5414EAB030A0ED301942D35,
+				F528759A030E1EAA01942D35,
+				FABC03EA0460AA310094B9B5,
+			);
+			isa = PBXGroup;
+			path = ui;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9C030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AskMessageDialog.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9D030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AWTFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9E030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AWTMenu.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414E9F030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = AWTMenuBar.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA0030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoFrame.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA1030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DialogListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA2030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditVisibleWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA3030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditVisibleWindowCallback.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA4030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FlowVerticalLayout.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA5030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Graphics2DSettings.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA6030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PanelSeperator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA8030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ProgressBar.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EA9030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Slider.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAA030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = WindowListenerDispose.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAB030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = WindowListenerNoActions.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAC030A0ED301942D35 = {
+			children = (
+				F5414EAD030A0ED301942D35,
+				F5414EAE030A0ED301942D35,
+				FA20225504A672AC00A80164,
+				F5414EAF030A0ED301942D35,
+				F5414EB0030A0ED301942D35,
+				F5414EB1030A0ED301942D35,
+				F5414EB2030A0ED301942D35,
+				F5414EB3030A0ED301942D35,
+				FAD896B7044765570094B9B5,
+			);
+			isa = PBXGroup;
+			path = util;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAD030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoColor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAE030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LinkedList.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EAF030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Set.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EB0030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SortComparator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EB1030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Sorter.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EB2030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = UnsortedVectorDictionary.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EB3030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = M.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5414EB4030A0ED301942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = ZBufferedImage.java;
+			path = javafiles/demo/graph/ZBufferedImage.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5414EB5030A0ED301942D35 = {
+			fileRef = F5414E1C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EB6030A0ED301942D35 = {
+			fileRef = F5414E1D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EB7030A0ED301942D35 = {
+			fileRef = F5414E1E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EB8030A0ED301942D35 = {
+			fileRef = F5414E1F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EB9030A0ED301942D35 = {
+			fileRef = F5414E20030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBA030A0ED301942D35 = {
+			fileRef = F5414E21030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBB030A0ED301942D35 = {
+			fileRef = F5414E22030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBC030A0ED301942D35 = {
+			fileRef = F5414E23030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBD030A0ED301942D35 = {
+			fileRef = F5414E24030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBE030A0ED301942D35 = {
+			fileRef = F5414E25030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EBF030A0ED301942D35 = {
+			fileRef = F5414E26030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC0030A0ED301942D35 = {
+			fileRef = F5414E27030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC1030A0ED301942D35 = {
+			fileRef = F5414E28030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC2030A0ED301942D35 = {
+			fileRef = F5414E29030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC3030A0ED301942D35 = {
+			fileRef = F5414E2B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC4030A0ED301942D35 = {
+			fileRef = F5414E2C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC5030A0ED301942D35 = {
+			fileRef = F5414E2E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC6030A0ED301942D35 = {
+			fileRef = F5414E2F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC7030A0ED301942D35 = {
+			fileRef = F5414E30030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC8030A0ED301942D35 = {
+			fileRef = F5414E32030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EC9030A0ED301942D35 = {
+			fileRef = F5414E34030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECA030A0ED301942D35 = {
+			fileRef = F5414E35030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECB030A0ED301942D35 = {
+			fileRef = F5414E36030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECC030A0ED301942D35 = {
+			fileRef = F5414E37030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECD030A0ED301942D35 = {
+			fileRef = F5414E38030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECE030A0ED301942D35 = {
+			fileRef = F5414E3A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ECF030A0ED301942D35 = {
+			fileRef = F5414E3B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED0030A0ED301942D35 = {
+			fileRef = F5414E3C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED1030A0ED301942D35 = {
+			fileRef = F5414E3D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED2030A0ED301942D35 = {
+			fileRef = F5414E3E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED3030A0ED301942D35 = {
+			fileRef = F5414E3F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED5030A0ED301942D35 = {
+			fileRef = F5414E41030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED6030A0ED301942D35 = {
+			fileRef = F5414E43030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED7030A0ED301942D35 = {
+			fileRef = F5414E44030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED8030A0ED301942D35 = {
+			fileRef = F5414E46030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414ED9030A0ED301942D35 = {
+			fileRef = F5414E47030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDA030A0ED301942D35 = {
+			fileRef = F5414E48030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDB030A0ED301942D35 = {
+			fileRef = F5414E49030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDC030A0ED301942D35 = {
+			fileRef = F5414E4A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDD030A0ED301942D35 = {
+			fileRef = F5414E4B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDE030A0ED301942D35 = {
+			fileRef = F5414E4C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EDF030A0ED301942D35 = {
+			fileRef = F5414E4D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE3030A0ED301942D35 = {
+			fileRef = F5414E51030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE4030A0ED301942D35 = {
+			fileRef = F5414E52030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE5030A0ED301942D35 = {
+			fileRef = F5414E53030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE6030A0ED301942D35 = {
+			fileRef = F5414E54030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE7030A0ED301942D35 = {
+			fileRef = F5414E55030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE8030A0ED301942D35 = {
+			fileRef = F5414E56030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EE9030A0ED301942D35 = {
+			fileRef = F5414E57030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EEA030A0ED301942D35 = {
+			fileRef = F5414E5A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EEB030A0ED301942D35 = {
+			fileRef = F5414E5B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EEC030A0ED301942D35 = {
+			fileRef = F5414E5C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EED030A0ED301942D35 = {
+			fileRef = F5414E5D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EEE030A0ED301942D35 = {
+			fileRef = F5414E5E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EEF030A0ED301942D35 = {
+			fileRef = F5414E5F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF0030A0ED301942D35 = {
+			fileRef = F5414E60030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF1030A0ED301942D35 = {
+			fileRef = F5414E61030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF2030A0ED301942D35 = {
+			fileRef = F5414E62030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF3030A0ED301942D35 = {
+			fileRef = F5414E63030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF4030A0ED301942D35 = {
+			fileRef = F5414E64030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF5030A0ED301942D35 = {
+			fileRef = F5414E65030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF6030A0ED301942D35 = {
+			fileRef = F5414E66030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF7030A0ED301942D35 = {
+			fileRef = F5414E67030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF8030A0ED301942D35 = {
+			fileRef = F5414E68030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EF9030A0ED301942D35 = {
+			fileRef = F5414E6B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFA030A0ED301942D35 = {
+			fileRef = F5414E6C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFB030A0ED301942D35 = {
+			fileRef = F5414E6D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFC030A0ED301942D35 = {
+			fileRef = F5414E6E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFD030A0ED301942D35 = {
+			fileRef = F5414E6F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFE030A0ED301942D35 = {
+			fileRef = F5414E70030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414EFF030A0ED301942D35 = {
+			fileRef = F5414E71030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F00030A0ED301942D35 = {
+			fileRef = F5414E72030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F01030A0ED301942D35 = {
+			fileRef = F5414E73030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F02030A0ED301942D35 = {
+			fileRef = F5414E74030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F03030A0ED301942D35 = {
+			fileRef = F5414E75030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F04030A0ED301942D35 = {
+			fileRef = F5414E76030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F05030A0ED301942D35 = {
+			fileRef = F5414E77030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F06030A0ED301942D35 = {
+			fileRef = F5414E78030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F07030A0ED301942D35 = {
+			fileRef = F5414E79030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F08030A0ED301942D35 = {
+			fileRef = F5414E7A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F09030A0ED301942D35 = {
+			fileRef = F5414E7B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0A030A0ED301942D35 = {
+			fileRef = F5414E7E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0B030A0ED301942D35 = {
+			fileRef = F5414E7F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0C030A0ED301942D35 = {
+			fileRef = F5414E80030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0D030A0ED301942D35 = {
+			fileRef = F5414E81030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0E030A0ED301942D35 = {
+			fileRef = F5414E82030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F0F030A0ED301942D35 = {
+			fileRef = F5414E83030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F10030A0ED301942D35 = {
+			fileRef = F5414E84030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F11030A0ED301942D35 = {
+			fileRef = F5414E85030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F12030A0ED301942D35 = {
+			fileRef = F5414E86030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F13030A0ED301942D35 = {
+			fileRef = F5414E87030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F14030A0ED301942D35 = {
+			fileRef = F5414E88030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F15030A0ED301942D35 = {
+			fileRef = F5414E89030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F16030A0ED301942D35 = {
+			fileRef = F5414E8A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F17030A0ED301942D35 = {
+			fileRef = F5414E8B030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F18030A0ED301942D35 = {
+			fileRef = F5414E8C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F19030A0ED301942D35 = {
+			fileRef = F5414E8D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1A030A0ED301942D35 = {
+			fileRef = F5414E8E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1B030A0ED301942D35 = {
+			fileRef = F5414E8F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1C030A0ED301942D35 = {
+			fileRef = F5414E90030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1D030A0ED301942D35 = {
+			fileRef = F5414E91030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1E030A0ED301942D35 = {
+			fileRef = F5414E92030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F1F030A0ED301942D35 = {
+			fileRef = F5414E93030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F20030A0ED301942D35 = {
+			fileRef = F5414E94030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F21030A0ED301942D35 = {
+			fileRef = F5414E95030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F22030A0ED301942D35 = {
+			fileRef = F5414E96030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F23030A0ED301942D35 = {
+			fileRef = F5414E97030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F24030A0ED301942D35 = {
+			fileRef = F5414E98030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F25030A0ED301942D35 = {
+			fileRef = F5414E99030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F26030A0ED301942D35 = {
+			fileRef = F5414E9A030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F27030A0ED301942D35 = {
+			fileRef = F5414E9C030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F28030A0ED301942D35 = {
+			fileRef = F5414E9D030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F29030A0ED301942D35 = {
+			fileRef = F5414E9E030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2A030A0ED301942D35 = {
+			fileRef = F5414E9F030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2B030A0ED301942D35 = {
+			fileRef = F5414EA0030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2C030A0ED301942D35 = {
+			fileRef = F5414EA1030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2D030A0ED301942D35 = {
+			fileRef = F5414EA2030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2E030A0ED301942D35 = {
+			fileRef = F5414EA3030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F2F030A0ED301942D35 = {
+			fileRef = F5414EA4030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F30030A0ED301942D35 = {
+			fileRef = F5414EA5030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F31030A0ED301942D35 = {
+			fileRef = F5414EA6030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F33030A0ED301942D35 = {
+			fileRef = F5414EA8030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F34030A0ED301942D35 = {
+			fileRef = F5414EA9030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F35030A0ED301942D35 = {
+			fileRef = F5414EAA030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F36030A0ED301942D35 = {
+			fileRef = F5414EAB030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F37030A0ED301942D35 = {
+			fileRef = F5414EAD030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F38030A0ED301942D35 = {
+			fileRef = F5414EAE030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F39030A0ED301942D35 = {
+			fileRef = F5414EAF030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F3A030A0ED301942D35 = {
+			fileRef = F5414EB0030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F3B030A0ED301942D35 = {
+			fileRef = F5414EB1030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F3C030A0ED301942D35 = {
+			fileRef = F5414EB2030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F3D030A0ED301942D35 = {
+			fileRef = F5414EB3030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5414F3E030A0ED301942D35 = {
+			fileRef = F5414EB4030A0ED301942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F555BE4C03EF5B9C0194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MB.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F555BE4D03EF5B9C0194B9B5 = {
+			fileRef = F555BE4C03EF5B9C0194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC46903078A3101942D35 = {
+			children = (
+				F55EC46A03078A3101942D35,
+				F55EC47103078A3101942D35,
+				F55EC47E03078A3101942D35,
+				FAE7C44706838E5000B73C79,
+				F555BE4C03EF5B9C0194B9B5,
+				F5CBEAB20309ACA201942D35,
+				F55EC4BD03078A3101942D35,
+				FAB65FD8044369520094B9B5,
+				F55EC54303078F8901942D35,
+				F55EC49B03078A3101942D35,
+				F529A6FB03101EB801942D35,
+				F55EC4CD03078A3101942D35,
+				F55EC49E03078A3101942D35,
+				F55EC4B303078A3101942D35,
+				F5A1464C030A2F1001942D35,
+				F55EC4BC03078A3101942D35,
+				F55EC4D703078A3101942D35,
+				F55EC49A03078A3101942D35,
+			);
+			isa = PBXGroup;
+			path = mathbuild;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46A03078A3101942D35 = {
+			children = (
+				F55EC46B03078A3101942D35,
+				F55EC46C03078A3101942D35,
+				F55EC46D03078A3101942D35,
+				F55EC46E03078A3101942D35,
+				F55EC46F03078A3101942D35,
+				FA8F4528043A443E0094B9B5,
+				FA0FD04704537DC60094B9B5,
+			);
+			isa = PBXGroup;
+			path = type;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46B03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Type.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46C03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeFunction.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46D03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeMatrix.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46E03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeScalar.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC46F03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47103078A3101942D35 = {
+			children = (
+				F55EC47203078A3101942D35,
+				F55EC47303078A3101942D35,
+				F55EC47503078A3101942D35,
+				F5FFE15D0308B66A01942D35,
+				F5BE225D0310E3AA01942D35,
+				F55EC47703078A3101942D35,
+				F55EC47903078A3101942D35,
+				F55EC47B03078A3101942D35,
+				FAA1E073043A48260094B9B5,
+				FA0FD04904537FCB0094B9B5,
+				FAA1E077043A4CB50094B9B5,
+			);
+			isa = PBXGroup;
+			path = value;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Value.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueFunction.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueFunctionImpl.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueMatrix.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueScalar.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47B03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47E03078A3101942D35 = {
+			children = (
+				F5D0EF3104049E810194B9B5,
+				F55EC47F03078A3101942D35,
+				F55EC48003078A3101942D35,
+				F55EC48103078A3101942D35,
+				F55EC48203078A3101942D35,
+				F55EC48303078A3101942D35,
+				F55EC48403078A3101942D35,
+				F55EC48503078A3101942D35,
+				F55EC48603078A3101942D35,
+				F55EC48703078A3101942D35,
+				F55EC48803078A3101942D35,
+				F55EC48903078A3101942D35,
+				F55EC48A03078A3101942D35,
+				F55EC48B03078A3101942D35,
+				F55EC48C03078A3101942D35,
+				F55EC48D03078A3101942D35,
+				F55EC48E03078A3101942D35,
+				F55EC48F03078A3101942D35,
+				F55EC49003078A3101942D35,
+				F55EC49103078A3101942D35,
+				F55EC49203078A3101942D35,
+				F55EC49303078A3101942D35,
+				F55EC49403078A3101942D35,
+				F55EC49503078A3101942D35,
+				F55EC49603078A3101942D35,
+				F55EC49703078A3101942D35,
+				F55EC49803078A3101942D35,
+				F55EC49903078A3101942D35,
+				F52957FD030B449E01942D35,
+				F5295801030B4A1601942D35,
+				F5295803030B5D5201942D35,
+				F51A1672030B5E6701942D35,
+				F51A1674030B5F0201942D35,
+				F51A1676030B5F2801942D35,
+				F51A1678030B5F5701942D35,
+				F51A167A030B5F8101942D35,
+				F5287598030E1B8001942D35,
+				F5DF651E03F641760194B9B5,
+				FADA1CC50453C7420094B9B5,
+				FAD9F61A0461C7EB0094B9B5,
+				FAD9F61C0461CA3A0094B9B5,
+				FAD9F61E0461CAAE0094B9B5,
+				FAC306A1049B04F600A801C9,
+				FAC306A3049B0B1E00A801C9,
+			);
+			isa = PBXGroup;
+			path = functions;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC47F03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Abs.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Acos.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Add.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Asin.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Atan.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Cosh.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Cosine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Cross.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Divide.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48803078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Dot.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Exponent.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48A03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Ln.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48B03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Multiply.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48C03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Negate.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48D03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Sign.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48E03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Sine.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC48F03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Sinh.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNBinOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNIntegral.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNRangeEnd.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNRangeRes.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNRangeStart.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNUnOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Sqrt.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Subtract.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49803078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tangent.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tanh.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49A03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = BuildException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49B03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Environment.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49C03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeBin.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49D03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeCache.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49E03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Executor.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC49F03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeMatrixComponent.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeRange.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeRangeExe.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeUn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeVal.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeVectorComponent.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FuncExeBuilder.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpBin.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpBinLeft.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A803078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpBinLeftOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4A903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpBinRight.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AA03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpBinRightOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AB03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespMat.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AC03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespMatUn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AD03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespMatX.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AE03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespVec.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4AF03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespVecUn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespVecX.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespXMat.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpCorrespXVec.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Operator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OperatorBinFactory.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OperatorUnFactory.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpIdentity.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpUn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B803078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = OpVal.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4B903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ParameterDeriv.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BA03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ParameterExe.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BB03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ParameterID.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BC03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ParseException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BD03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Parser.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BE03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNApp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4BF03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNAppSN.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNAppVal.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNDerivative.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNExe.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNFunc.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNIdentifier.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNLet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMakeVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMatrix.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C803078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNNumber.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4C903078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNParam.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CA03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNVal.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CB03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CC03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNVectorComponent.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CD03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SyntaxNode.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CE03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SyntaxNodeConstructorBin.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4CF03078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SyntaxNodeConstructorUn.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D003078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Token.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D103078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenEOF.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D203078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Tokenizer.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D303078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenNumber.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D403078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenParenthesizedTokens.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D503078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenString.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D603078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TokenWord.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D703078A3101942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = VariableNotFoundException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC4D803078A3201942D35 = {
+			fileRef = F55EC49A03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4D903078A3201942D35 = {
+			fileRef = F55EC49B03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DA03078A3201942D35 = {
+			fileRef = F55EC49C03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DB03078A3201942D35 = {
+			fileRef = F55EC49D03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DC03078A3201942D35 = {
+			fileRef = F55EC49E03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DD03078A3201942D35 = {
+			fileRef = F55EC49F03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DE03078A3201942D35 = {
+			fileRef = F55EC4A003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4DF03078A3201942D35 = {
+			fileRef = F55EC4A103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E003078A3201942D35 = {
+			fileRef = F55EC4A203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E103078A3201942D35 = {
+			fileRef = F55EC4A303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E203078A3201942D35 = {
+			fileRef = F55EC4A403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E303078A3201942D35 = {
+			fileRef = F55EC4A503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E403078A3201942D35 = {
+			fileRef = F55EC47F03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E503078A3201942D35 = {
+			fileRef = F55EC48003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E603078A3201942D35 = {
+			fileRef = F55EC48103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E703078A3201942D35 = {
+			fileRef = F55EC48203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E803078A3201942D35 = {
+			fileRef = F55EC48303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4E903078A3201942D35 = {
+			fileRef = F55EC48403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4EA03078A3201942D35 = {
+			fileRef = F55EC48503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4EB03078A3201942D35 = {
+			fileRef = F55EC48603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4EC03078A3201942D35 = {
+			fileRef = F55EC48703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4ED03078A3201942D35 = {
+			fileRef = F55EC48803078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4EE03078A3201942D35 = {
+			fileRef = F55EC48903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4EF03078A3201942D35 = {
+			fileRef = F55EC48A03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F003078A3201942D35 = {
+			fileRef = F55EC48B03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F103078A3201942D35 = {
+			fileRef = F55EC48C03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F203078A3201942D35 = {
+			fileRef = F55EC48D03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F303078A3201942D35 = {
+			fileRef = F55EC48E03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F403078A3201942D35 = {
+			fileRef = F55EC48F03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F503078A3201942D35 = {
+			fileRef = F55EC49003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F603078A3201942D35 = {
+			fileRef = F55EC49103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F703078A3201942D35 = {
+			fileRef = F55EC49203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F803078A3201942D35 = {
+			fileRef = F55EC49303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4F903078A3201942D35 = {
+			fileRef = F55EC49403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FA03078A3201942D35 = {
+			fileRef = F55EC49503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FB03078A3201942D35 = {
+			fileRef = F55EC49603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FC03078A3201942D35 = {
+			fileRef = F55EC49703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FD03078A3201942D35 = {
+			fileRef = F55EC49803078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FE03078A3201942D35 = {
+			fileRef = F55EC49903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC4FF03078A3201942D35 = {
+			fileRef = F55EC4A603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50003078A3201942D35 = {
+			fileRef = F55EC4A703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50103078A3201942D35 = {
+			fileRef = F55EC4A803078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50203078A3201942D35 = {
+			fileRef = F55EC4A903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50303078A3201942D35 = {
+			fileRef = F55EC4AA03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50403078A3201942D35 = {
+			fileRef = F55EC4AB03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50503078A3201942D35 = {
+			fileRef = F55EC4AC03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50603078A3201942D35 = {
+			fileRef = F55EC4AD03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50703078A3201942D35 = {
+			fileRef = F55EC4AE03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50803078A3201942D35 = {
+			fileRef = F55EC4AF03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50903078A3201942D35 = {
+			fileRef = F55EC4B003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50A03078A3201942D35 = {
+			fileRef = F55EC4B103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50B03078A3201942D35 = {
+			fileRef = F55EC4B203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50C03078A3201942D35 = {
+			fileRef = F55EC4B303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50D03078A3201942D35 = {
+			fileRef = F55EC4B403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50E03078A3201942D35 = {
+			fileRef = F55EC4B503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC50F03078A3201942D35 = {
+			fileRef = F55EC4B603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51003078A3201942D35 = {
+			fileRef = F55EC4B703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51103078A3201942D35 = {
+			fileRef = F55EC4B803078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51203078A3201942D35 = {
+			fileRef = F55EC4B903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51303078A3201942D35 = {
+			fileRef = F55EC4BA03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51403078A3201942D35 = {
+			fileRef = F55EC4BB03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51503078A3201942D35 = {
+			fileRef = F55EC4BC03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51603078A3201942D35 = {
+			fileRef = F55EC4BD03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51703078A3201942D35 = {
+			fileRef = F55EC4BE03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51803078A3201942D35 = {
+			fileRef = F55EC4BF03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51903078A3201942D35 = {
+			fileRef = F55EC4C003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51A03078A3201942D35 = {
+			fileRef = F55EC4C103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51B03078A3201942D35 = {
+			fileRef = F55EC4C203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51C03078A3201942D35 = {
+			fileRef = F55EC4C303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51D03078A3201942D35 = {
+			fileRef = F55EC4C403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51E03078A3201942D35 = {
+			fileRef = F55EC4C503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC51F03078A3201942D35 = {
+			fileRef = F55EC4C603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52003078A3201942D35 = {
+			fileRef = F55EC4C703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52103078A3201942D35 = {
+			fileRef = F55EC4C803078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52203078A3201942D35 = {
+			fileRef = F55EC4C903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52303078A3201942D35 = {
+			fileRef = F55EC4CA03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52403078A3201942D35 = {
+			fileRef = F55EC4CB03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52503078A3201942D35 = {
+			fileRef = F55EC4CC03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52603078A3201942D35 = {
+			fileRef = F55EC4CD03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52703078A3201942D35 = {
+			fileRef = F55EC4CE03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52803078A3201942D35 = {
+			fileRef = F55EC4CF03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52903078A3201942D35 = {
+			fileRef = F55EC4D003078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52A03078A3201942D35 = {
+			fileRef = F55EC4D103078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52B03078A3201942D35 = {
+			fileRef = F55EC4D203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52C03078A3201942D35 = {
+			fileRef = F55EC4D303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52D03078A3201942D35 = {
+			fileRef = F55EC4D403078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52E03078A3201942D35 = {
+			fileRef = F55EC4D503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC52F03078A3201942D35 = {
+			fileRef = F55EC4D603078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53003078A3201942D35 = {
+			fileRef = F55EC46B03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53103078A3201942D35 = {
+			fileRef = F55EC46C03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53203078A3201942D35 = {
+			fileRef = F55EC46D03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53303078A3201942D35 = {
+			fileRef = F55EC46E03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53403078A3201942D35 = {
+			fileRef = F55EC46F03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53603078A3201942D35 = {
+			fileRef = F55EC47203078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53703078A3201942D35 = {
+			fileRef = F55EC47303078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53903078A3201942D35 = {
+			fileRef = F55EC47503078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53B03078A3201942D35 = {
+			fileRef = F55EC47703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53D03078A3201942D35 = {
+			fileRef = F55EC47903078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC53F03078A3201942D35 = {
+			fileRef = F55EC47B03078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC54203078A3201942D35 = {
+			fileRef = F55EC4D703078A3101942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55EC54303078F8901942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Range.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F55EC54403078F8901942D35 = {
+			fileRef = F55EC54303078F8901942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F560F8120419D5E60194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Ray.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F560F8130419D5E60194B9B5 = {
+			fileRef = F560F8120419D5E60194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F560F8140419D7520194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = RayIntersection.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F560F8150419D7520194B9B5 = {
+			fileRef = F560F8140419D7520194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F560F8160419D8210194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = RayIntersectable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F560F8170419D8210194B9B5 = {
+			fileRef = F560F8160419D8210194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A1464A030A2E9E01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoRuntimeException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5A1464B030A2E9E01942D35 = {
+			fileRef = F5A1464A030A2E9E01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A1464C030A2F1001942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = MathbuildRuntimeException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5A1464D030A2F1001942D35 = {
+			fileRef = F5A1464C030A2F1001942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A1CBA9030A12B501942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = DemoApplet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5A1CBAA030A12B501942D35 = {
+			fileRef = F5A1CBA9030A12B501942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A1CBAB030A212C01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = IncompatibleTypeException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5A1CBAC030A212C01942D35 = {
+			fileRef = F5A1CBAB030A212C01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B98120041AF0CC0194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = PlotChoice.java;
+			path = javafiles/demo/ui/PlotChoice.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5B98121041AF0CC0194B9B5 = {
+			fileRef = F5B98120041AF0CC0194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BE225B0310E2CD01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeStack.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5BE225C0310E2CE01942D35 = {
+			fileRef = F5BE225B0310E2CD01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BE225D0310E3AA01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueFunctionOne.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5BE225E0310E3AA01942D35 = {
+			fileRef = F5BE225D0310E3AA01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5CBEAAF0309A8A601942D35 = {
+			children = (
+				F5CBEAB00309A8A601942D35,
+				FA87DB0508400137005A6DE1,
+				F691D2B9042FB1BD0156F598,
+			);
+			isa = PBXGroup;
+			path = resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5CBEAB00309A8A601942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.mig;
+			path = builtins.defs;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5CBEAB10309A8A601942D35 = {
+			fileRef = F5CBEAB00309A8A601942D35;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Client,
+				);
+				JAVA_ARCHIVE_SUBDIR = resources;
+			};
+		};
+		F5CBEAB20309ACA201942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Init.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5CBEAB30309ACA301942D35 = {
+			fileRef = F5CBEAB20309ACA201942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0EF3104049E810194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Identity.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5D0EF3204049E810194B9B5 = {
+			fileRef = F5D0EF3104049E810194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DF651E03F641760194B9B5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Transpose.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5DF651F03F641760194B9B5 = {
+			fileRef = F5DF651E03F641760194B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FFE15D0308B66A01942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueFunctionZero.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5FFE15E0308B66A01942D35 = {
+			fileRef = F5FFE15D0308B66A01942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FFE15F0308B99601942D35 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMakeZero.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5FFE1600308B99701942D35 = {
+			fileRef = F5FFE15F0308B99601942D35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F50
+//F51
+//F52
+//F53
+//F54
+//F60
+//F61
+//F62
+//F63
+//F64
+		F691D2B9042FB1BD0156F598 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = MANIFEST;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F691D2BA042FB1BD0156F598 = {
+			fileRef = F691D2B9042FB1BD0156F598;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = resources;
+			};
+		};
+		F691D2C1042FB5BF0156F598 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotLevelSet.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F691D2C2042FB5BF0156F598 = {
+			fileRef = F691D2C1042FB5BF0156F598;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F691D2C3042FB6EC0156F598 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotNull.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F691D2C4042FB6EC0156F598 = {
+			fileRef = F691D2C3042FB6EC0156F598;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F691D2C5042FF1C00156F598 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotLevelSetWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F691D2C6042FF1C00156F598 = {
+			fileRef = F691D2C5042FF1C00156F598;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F60
+//F61
+//F62
+//F63
+//F64
+//FA0
+//FA1
+//FA2
+//FA3
+//FA4
+		FA0FD04704537DC60094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeList.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA0FD04804537DC60094B9B5 = {
+			fileRef = FA0FD04704537DC60094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA0FD04904537FCB0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = ValueList.java;
+			path = javafiles/mathbuild/value/ValueList.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		FA0FD04A04537FCB0094B9B5 = {
+			fileRef = FA0FD04904537FCB0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA0FD04D0453B4690094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNListConstruct.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA0FD04E0453B4690094B9B5 = {
+			fileRef = FA0FD04D0453B4690094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA0FD04F0453B94E0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNListAccess.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA0FD0500453B94E0094B9B5 = {
+			fileRef = FA0FD04F0453B94E0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA20225504A672AC00A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Queue.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA20225604A672AC00A80164 = {
+			fileRef = FA20225504A672AC00A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA87DB0508400137005A6DE1 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = jarfile.url;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA87DB2608400248005A6DE1 = {
+			fileRef = FA87DB0508400137005A6DE1;
+			isa = PBXBuildFile;
+			settings = {
+				JAVA_ARCHIVE_SUBDIR = resources;
+			};
+		};
+		FA8F4528043A443E0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TypeRecord.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA8F4529043A443E0094B9B5 = {
+			fileRef = FA8F4528043A443E0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA92F8F6043D1F890094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STEObject.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA92F8F7043D1F890094B9B5 = {
+			fileRef = FA92F8F6043D1F890094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA9F8602043DF4C20094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = ExprObject.java;
+			path = javafiles/demo/ExprObject.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		FA9F8603043DF4C20094B9B5 = {
+			fileRef = FA9F8602043DF4C20094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA9F860C043EAC100094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotIdentifierPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA9F860D043EAC100094B9B5 = {
+			fileRef = FA9F860C043EAC100094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA9F860E043EAF920094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = GraphFrameListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FA9F860F043EAF920094B9B5 = {
+			fileRef = FA9F860E043EAF920094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E073043A48260094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ValueRecord.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E074043A48260094B9B5 = {
+			fileRef = FAA1E073043A48260094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E077043A4CB50094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FieldNotFoundException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E078043A4CB50094B9B5 = {
+			fileRef = FAA1E077043A4CB50094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E079043A4DCE0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNRecordLookup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E07A043A4DCE0094B9B5 = {
+			fileRef = FAA1E079043A4DCE0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E07B043A4FE20094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeRecordLookup.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E07C043A4FE20094B9B5 = {
+			fileRef = FAA1E07B043A4FE20094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E081043A8C8A0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExeNAryOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E082043A8C8A0094B9B5 = {
+			fileRef = FAA1E081043A8C8A0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA1E083043A8E8E0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNAppOp.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA1E084043A8E8E0094B9B5 = {
+			fileRef = FAA1E083043A8E8E0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA566B304E1796D00A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = NormalVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA566B404E1796D00A80164 = {
+			fileRef = FAA566B304E1796D00A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA566B504E17CC400A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Transformation.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA566B604E17CC400A80164 = {
+			fileRef = FAA566B504E17CC400A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA566B704E17FC800A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = TangentVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA566B804E17FC800A80164 = {
+			fileRef = FAA566B704E17FC800A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA566B904E1807F00A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LightingVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA566BA04E1807F00A80164 = {
+			fileRef = FAA566B904E1807F00A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAA566BD04E1A53800A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = NullLightingVector.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAA566BE04E1A53800A80164 = {
+			fileRef = FAA566BD04E1A53800A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAAFD1A604D89CA400A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotOutput.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAAFD1A704D89CA400A80164 = {
+			fileRef = FAAFD1A604D89CA400A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAAFD1A804D8B09000A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotOutputArrays.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAAFD1A904D8B09000A80164 = {
+			fileRef = FAAFD1A804D8B09000A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAAFD1AA04D8CDC900A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = PlotOutputLists.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAAFD1AB04D8CDC900A80164 = {
+			fileRef = FAAFD1AA04D8CDC900A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAB50F0206825CD200F99ED3 = {
+			children = (
+				FAC90C1C04A66DEC00A80164,
+				FAB50FDA0682A14900F99ED3,
+				FAE8A06004A9236900A80164,
+			);
+			isa = PBXGroup;
+			name = exec;
+			path = javafiles/demo/exec;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAB50FDA0682A14900F99ED3 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExecStatusListener.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAB50FDB0682A14900F99ED3 = {
+			fileRef = FAB50FDA0682A14900F99ED3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAB65FD6044369390094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMutateRestore.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAB65FD7044369390094B9B5 = {
+			fileRef = FAB65FD6044369390094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAB65FD8044369520094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Mutable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAB65FD9044369520094B9B5 = {
+			fileRef = FAB65FD8044369520094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAB773B20441E02E0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EnvCloneable.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAB773B30441E02E0094B9B5 = {
+			fileRef = FAB773B20441E02E0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FABC03E6046092FB0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotCheckboxWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FABC03E7046092FB0094B9B5 = {
+			fileRef = FABC03E6046092FB0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FABC03EA0460AA310094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = LittleButton.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FABC03EB0460AA310094B9B5 = {
+			fileRef = FABC03EA0460AA310094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAC306A1049B04F600A801C9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMin.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAC306A2049B04F600A801C9 = {
+			fileRef = FAC306A1049B04F600A801C9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAC306A3049B0B1E00A801C9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SNMax.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAC306A4049B0B1E00A801C9 = {
+			fileRef = FAC306A3049B0B1E00A801C9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAC586FF043B7D030094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = STERecord.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAC58700043B7D030094B9B5 = {
+			fileRef = FAC586FF043B7D030094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAC5870B043BEA540094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExprHookMaker.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAC5870C043BEA540094B9B5 = {
+			fileRef = FAC5870B043BEA540094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAC90C1C04A66DEC00A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Exec.java;
+			path = javafiles/demo/exec/Exec.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAC90C1D04A66DEC00A80164 = {
+			fileRef = FAC90C1C04A66DEC00A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD896B304475D280094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = SeperatedPanel.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAD896B404475D280094B9B5 = {
+			fileRef = FAD896B304475D280094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD896B7044765570094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = U.java;
+			path = javafiles/demo/util/U.java;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAD896B8044765570094B9B5 = {
+			fileRef = FAD896B7044765570094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD896B904476A740094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = EditPlotAxesWindow.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAD896BA04476A740094B9B5 = {
+			fileRef = FAD896B904476A740094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD9F61A0461C7EB0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = FractionPart.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAD9F61B0461C7EB0094B9B5 = {
+			fileRef = FAD9F61A0461C7EB0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD9F61C0461CA3A0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = IntegerPart.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAD9F61D0461CA3A0094B9B5 = {
+			fileRef = FAD9F61C0461CA3A0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAD9F61E0461CAAE0094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Modulo.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAD9F61F0461CAAE0094B9B5 = {
+			fileRef = FAD9F61E0461CAAE0094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FADA1CC50453C7420094B9B5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = Length.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FADA1CC60453C7420094B9B5 = {
+			fileRef = FADA1CC50453C7420094B9B5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FAE7C44706838E5000B73C79 = {
+			children = (
+				F55EC4A503078A3101942D35,
+				F55EC49C03078A3101942D35,
+				F55EC49D03078A3101942D35,
+				F55EC49F03078A3101942D35,
+				F530BDB40407336B0194B9B5,
+				F55EC4A003078A3101942D35,
+				F55EC4A103078A3101942D35,
+				F55EC4A203078A3101942D35,
+				F55EC4A303078A3101942D35,
+				F55EC4A403078A3101942D35,
+				FAA1E081043A8C8A0094B9B5,
+				F55EC4A603078A3101942D35,
+				F55EC4A703078A3101942D35,
+				F55EC4A803078A3101942D35,
+				F55EC4A903078A3101942D35,
+				F55EC4AA03078A3101942D35,
+				F55EC4AB03078A3101942D35,
+				F55EC4AC03078A3101942D35,
+				F55EC4AD03078A3101942D35,
+				F55EC4AE03078A3101942D35,
+				F55EC4AF03078A3101942D35,
+				F55EC4B003078A3101942D35,
+				F55EC4B103078A3101942D35,
+				F55EC4B203078A3101942D35,
+				F55EC4B403078A3101942D35,
+				F55EC4B503078A3101942D35,
+				F55EC4B603078A3101942D35,
+				F55EC4B703078A3101942D35,
+				F55EC4B803078A3101942D35,
+				F55EC4B903078A3101942D35,
+				F55EC4BA03078A3101942D35,
+				F55EC4BB03078A3101942D35,
+				F55EC4BE03078A3101942D35,
+				FAB65FD6044369390094B9B5,
+				F55EC4BF03078A3101942D35,
+				F55EC4C003078A3101942D35,
+				F55EC4C103078A3101942D35,
+				F55EC4C203078A3101942D35,
+				F55EC4C303078A3101942D35,
+				F55EC4C403078A3101942D35,
+				F55EC4C503078A3101942D35,
+				F55EC4C603078A3101942D35,
+				F55EC4C703078A3101942D35,
+				F55EC4C803078A3101942D35,
+				F55EC4C903078A3101942D35,
+				F55EC4CA03078A3101942D35,
+				FAA1E083043A8E8E0094B9B5,
+				F55EC4CB03078A3101942D35,
+				F55EC4CC03078A3101942D35,
+				F55EC4CE03078A3101942D35,
+				F55EC4CF03078A3101942D35,
+				F55EC4D003078A3101942D35,
+				F55EC4D103078A3101942D35,
+				F55EC4D203078A3101942D35,
+				F55EC4D303078A3101942D35,
+				F55EC4D403078A3101942D35,
+				F55EC4D503078A3101942D35,
+				F55EC4D603078A3101942D35,
+				F5402D2C0308623001942D35,
+				F5402D2E0308647A01942D35,
+				F5FFE15F0308B99601942D35,
+				F51A167C030B64B501942D35,
+				F51A167E030B66D701942D35,
+				F5BE225B0310E2CD01942D35,
+				F529A54C03120A7601942D35,
+				FAA1E079043A4DCE0094B9B5,
+				FA0FD04D0453B4690094B9B5,
+				FA0FD04F0453B94E0094B9B5,
+				FAA1E07B043A4FE20094B9B5,
+			);
+			isa = PBXGroup;
+			path = impl;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAE8A06004A9236900A80164 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			path = ExecCallback.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		FAE8A06104A9236900A80164 = {
+			fileRef = FAE8A06004A9236900A80164;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 01F12F4CFEC8CE2211DB9C8B;
+}
