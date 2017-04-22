@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+    <title>evolute-curve</title>
+</HEAD>
+<BODY>
+
+<br>
+
+<center>
+
+    <H2>evolute-curve</H2>
+
+    <applet archive="http://www.math.brown.edu/~deigen/javafiles3/Demo.jar" codebase="http://www.math.brown.edu/~deigen/javafiles3" code="DemoApplet" width=200 height=100> <param name="NAME" value="Demo"> <param name="DATA" value="
+filever 100.0 env {function $X(t)=1.5*cos(t),sin(t)$ variable $a=0,3,40$ 0.15
+interval $t= -pi,pi,40$} objects [{controls obj0 {constants [] intervals [t]
+objects [] readouts [] functions [X] variables [a]}} {frame.2d obj1 {canvas
+{canvas.3d obj5 {tool 0.0 points true graph {graph.3d obj6 {light false graph
+{plots [{plot.curve obj4 {super {super {transpt $0$ visible true addedz 0.0}
+color {coloring.group obj7 {colors [{coloring.expression obj8 {expr
+$scale(t)$}}] opacities [1.0] mixings [0.0]}} expr $X(t)$} thick true}}
+{plot.axes obj9 {super {transpt $0$ visible true addedz 0.0} labels [x y]}}
+{plot.curve obj2 {super {super {transpt $0$ visible true addedz 0.0} color
+{coloring.group obj10 {colors [{coloring.expression obj11 {expr $scale(t)$}}]
+opacities [1.0] mixings [0.0]}} expr $Evolute(X)(t)$} thick true}} {plot.curve
+obj3 {super {super {transpt $0$ visible true addedz 0.0} color {coloring.group
+obj12 {colors [{coloring.expression obj13 {expr $scale(t)$}}] opacities [1.0]
+mixings [0.0]}} expr $X(t) + a*U(X)(t)$} thick true}}]} alpha false scale
+100.01271474132783 surfacemode 1.0 drawmode 1.0 transf [0.8645372313078655 0.0
+0.0 0.0 0.0 0.8645372313078655 0.0 0.0 0.0 0.0 0.8645372313078655 0.0 0.0 0.0
+0.0 1.0]}} group null hotspots [] drawmode 0.0}} graph {id obj6} frame {visible
+true plots [{id obj2} {id obj3} {id obj4}] title $2D Graph$ labels
+[$ Curve: Evolute(X)(t)$ $ Curve: X(t) + a*U(X)(t)$ $ Curve: X(t)$]}}}]
+"></applet>
+
+    <a href="evolute-curve.jnlp">JNLP</a>
+
+</center>
+
+</BODY>
+</HTML>
